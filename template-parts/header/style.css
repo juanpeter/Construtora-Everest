@@ -1,0 +1,28 @@
+.video-container {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.header-full {
+    max-height: 100vh;
+}
+header {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.2);
+    color: #f1f1f1;
+    height: 100%;
+    padding: 24px 32px;
+}
+header nav ul {
+    list-style-type: none;
+    font-family: 'Roboto Slab', serif;
+    font-size: 24px;
+}
+header nav ul li:hover, header nav ul li.active {
+    border-bottom: solid 4px #f1f1f1;
+    transition: ease-in-out 0.25s;
+}
+header nav ul li:nth-child(3) {
+    border-bottom: none;
+}

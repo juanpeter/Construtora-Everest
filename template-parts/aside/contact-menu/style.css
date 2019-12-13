@@ -1,0 +1,24 @@
+aside#contact-menu {
+    position: fixed;
+    bottom: 138px;
+    left: 32px;
+    width: 400px;
+    max-width: calc(100vw - 64px);
+    z-index: 2;
+}
+aside#contact-menu h1,
+aside#contact-menu h2,
+aside#contact-menu h3,
+aside#contact-menu h4 {
+    font-family: 'Roboto Slab', serif;
+}
+aside#contact-menu > .card-header {
+    background-color: #01478F;
+    color: #fefefe;
+    border-radius: 20px 20px 0 0;
+}
+aside#contact-menu > .card-body {
+    color: #333333;
+    background-color: #eeeeee;
+    border-radius: 0 0 20px 20px;
+}
