@@ -1,4 +1,7 @@
 <?php
+    //Theme  Supports
+    add_theme_support( 'post-thumbnails' );
+    
     // Header Styles
     function recurring_stylesheets() {
         wp_register_style( 'bootstrap', 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css', array(), null, 'all');
